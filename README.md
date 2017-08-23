@@ -1,5 +1,14 @@
 # Sentiment_analysis_twitter
 ## Perform Sentiment Analysis on Twitter Stream Data
+Analyzed effect of Emoji's in improving Sentiment Analysis results. Collected twitter data using Twitter StreamAPI and used TF-IDF to vectorize the tweets. Created a positive and negative vector using the matrix, and used cosine similarity to identify the extent to which a given tweet is positive or negative. Incorporated Emoji's to the tweets by converting unicode, and repeated the process. Improved classification of the process by 15%. 
 
-I am interested in performing a sentiment analysis on twitter stream data. I used an event recently, which covers a historic transfer of a soccer player for the highest amount of money (grossing over $450 million) and I am interested in understanding the public reaction on the same.
-Also, continuing with the data set, I am interested in identifying the power of emoji's in a tweet. I want to incorporate the emoji's while computing the sentiment orientation of a tweet. And in order to do this, I converted all unicode tweet into their names using unicodedata library.
+## Files in src and it's use
+
+* settings.py - Input security credentials for the Twitter StreamAPI
+* senti_analysis.py - Performs the Sentiment Analysis through cosine similarity
+* scraper.py - Scraping from Twitter StreamAPI using tweepy
+
+## Rough timeline 
+
+* Week 1: Scraping data from Twitter Stream and storing it in MongoDB
+* Week 2: Vectorized the tweets and calculated similarity, followed the CRISP - DM methodology
