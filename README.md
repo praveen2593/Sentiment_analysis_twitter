@@ -20,7 +20,7 @@ Using the above data, I used Count Vectorizer to create a matrix with the vocabu
 Repeated the process again while including the emoji's in the dataset.
 
 ## Result, Inference and Future Work
-The model showed a 5% increase in the number of positive tweets when Emoji's were added. Since the event was an international event, I could not perform the analysis on tweets which were not in english. That and given that a significant portion of the tweet consisted of hyperlinks to news articles, I felt my model did not perform as well as expected. In the future, I want to choose a more general topic and perform the same experiment, to see how generalized the experiement results are. 
+The model showed a 15% increase in the number of positive tweets when Emoji's were added. Since the event was an international event, I could not perform the analysis on tweets which were not in english. That and given that a significant portion of the tweet consisted of hyperlinks to news articles, I felt my model did not perform as well as expected. In the future, I want to choose a more general topic and perform the same experiment, to see how generalized the experiement results are. 
 
 ## Files in src and it's use
 
