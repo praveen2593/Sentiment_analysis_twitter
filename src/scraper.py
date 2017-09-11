@@ -40,4 +40,4 @@ class TWITTER(object):
 if __name__ == '__main__':
     tweet = TWITTER()
     twet = tweet.load_data()
-    twet.filter(track=['Bolt'] , languages=['en'])
+    twet.filter(track=['Neymar_Jr'] , languages=['en'])
